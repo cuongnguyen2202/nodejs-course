@@ -1,0 +1,40 @@
+{
+  "name": "learnnodejs",
+  "version": "1.0.0",
+  "description": "learn nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass -w src/resources/scss/ -o src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuongnguyen2202/nodejs-learning.git"
+  },
+  "keywords": [
+    "nodejs",
+    "learning"
+  ],
+  "author": "cuongnguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuongnguyen2202/nodejs-learning/issues"
+  },
+  "homepage": "https://github.com/cuongnguyen2202/nodejs-learning#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "handlebars": "^4.7.7",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.14",
+    "mongoose-slug-generator": "^1.0.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.7",
+    "sass": "^1.35.1"
+  }
+}
